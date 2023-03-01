@@ -74,7 +74,9 @@ function App() {
       </div>
       <h1>Vite + React</h1>
 
-      <IconButton onClick={() => alert("icon button function!")} ref={ref} />
+      <IconButton onClick={() => alert("icon button function!")} ref={ref}>
+        ...
+      </IconButton>
 
       <button onClick={() => handleExplainButton()}>Clippy!</button>
 
